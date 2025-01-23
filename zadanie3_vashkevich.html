@@ -1,70 +1,44 @@
-<h2>Tabela porównawcza formatowania w HTML i CSS</h2>
-<table align="center" border="2" bordercolor="black" width="50%" cellpadding="0" cellspacing="0">
-    <tr>
-        <th>Kryterium</th>
-        <th>HTML</th>
-        <th>CSS</th>
-    </tr>
-    <tr>
-        <td>Struktura</td>
-        <td>Formatowanie w znacznikach.</td>
-        <td>Oddzielenie stylu od struktury.</td>
-    </tr>
-    <tr>
-        <td>Elastyczność</td>
-        <td>Ograniczone możliwości.</td>
-        <td>Rozbudowane opcje personalizacji.</td>
-    </tr>
-    <tr>
-        <td>Zarządzanie stylem</td>
-        <td>Trudne przy większych projektach.</td>
-        <td>Łatwe zarządzanie w jednym miejscu.</td>
-    </tr>
-    <tr>
-        <td>Responsywność</td>
-        <td>Brak wsparcia.</td>
-        <td>Obsługa media queries i jednostek.</td>
-    </tr>
-    <tr>
-        <td>Możliwości wizualne</td>
-        <td>Proste efekty.</td>
-        <td>Animacje, gradienty, cienie, 3D.</td>
-    </tr>
-    <tr>
-        <td>Separacja</td>
-        <td>Styl i treść połączone.</td>
-        <td>Styl i treść oddzielone.</td>
-    </tr>
-    <tr>
-        <td>Kompatybilność wsteczna</td>
-        <td>Dobre wsparcie w starszych przeglądarkach.</td>
-        <td>Nowoczesne funkcje mogą wymagać aktualizacji przeglądarki.</td>
-    </tr>
-</table>
+<!DOCTYPE html>
+<html>
+ <head>
+     <h2>Tabela porównawcza formatowania w HTML i CSS</h2>
+ <META HTTP-EQUIV="content-type" CONTENT="text/html">
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+    </style>
 
-<h2>Nowe możliwości CSS w porównaniu z HTML</h2>
-<ul>
-    <li>Selektory i pseudoklasy.</li>
-    <li>Projektowanie responsywne.</li>
-    <li>Animacje i przejścia.</li>
-    <li>Gradienty i wzory.</li>
-    <li>Transformacje 2D i 3D.</li>
-    <li>Flexbox i Grid.</li>
-    <li>Warstwy i z-index.</li>
-    <li>Pseudoelementy i zaawansowane klasy.</li>
-    <li>Zmienne CSS.</li>
-    <li>Efektywność stylowania grupowego.</li>
-</ul>
 
-<h2>Wady CSS</h2>
-<ul>
-    <ol TYPE=A START=1>
-    <li>Problemy z kompatybilnością przeglądarek.</li>
-    <li>Brak weryfikacji błędów.</li>
-    <li>Zależność od struktury DOM.</li>
-    <li>Konflikty reguł (specificity).</li>
-    <li>Chaos w dużych projektach.</li>
-    <li>Brak obsługi logiki interakcji.</li>
-    <li>Trudności dla początkujących.</li>
-    </ol>
-</ul>
+</head>
+<body>
+    <table cellspacing="0">
+        <tr>
+            <th colspan="2">Cechy modyfikowania formatowania w:</th>
+        </tr>
+        <tr>
+            <td>w HTML</td>
+            <td>w CSS</td>
+        </tr>
+        <tr>
+            <td>modyfikacja wyglądu elementów strony jest<br>
+                bardzo żmudna (atrybuty i znaczniki które<br>
+                za to odpowiadają, są porozrzucane w<br>
+                różnych miejscach kodu, mieszając się ze<br>
+                strukturą dokumentu).<br>
+                </td>
+            <td>rozdzielenie struktury i prezentacji<br>
+                dokumentów czyli: wszystkie polecenia<br>
+                dotyczące formatowania można umieścić w<br>
+                jednym miejscu (tzw. arkuszu) i powiązać je<br>
+                z konkretnymi elementami, wstawionymi za<br>
+                pomocą czystego (X)HTML. Taki sposób<br>
+                sprawia, że modyfikacja wyglądu stron może<br>
+                przebiegać dużo sprawniej<br></td>
+        </tr>
+    </table>
+    <br>
+    <a href="start.html" target="strony">wroć</a>
+
+</body>
+</html>
