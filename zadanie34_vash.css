@@ -1,0 +1,36 @@
+h3 {
+    color: olive;
+    }
+    /* blok górny */
+    #blok-gorny {
+    width: 200pt;
+    height: 2,5cm;
+    background-color: #FFFF99;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #808080;
+    border-left: 4px solid #FF0000;
+    border-right: 4px solid #FF00FF;
+    margin: auto;
+    padding-left: 10px;
+    }
+   /* blok środkowy */
+    #blok-srodkowy {
+    width: 300pt;
+    height: 2cm;
+    background: #FFFFFF;
+    border: 3px dashed #C0C0C0;
+    margin-left: 16%;
+    margin-top: 5%;
+    text-align: center;
+    }
+    /* blok dolny */
+    #blok-dolny {
+    width: 400pt;
+    height: 3cm;
+    background: #FFFFFF;
+    border: 2px double #808080;
+    margin-left: 40%;
+    font-size: 12px;
+    margin-top: 5%;
+    }
+    /*Viktoryia Vashkevich, 1pGr2*/
