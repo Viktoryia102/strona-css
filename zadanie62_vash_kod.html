@@ -1,0 +1,76 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html">
+<style>
+body {
+    background-color: gray;
+}
+textarea {
+    width: 90%;
+    height: 40%;
+    resize: none;
+ }
+
+ </style>
+</style>
+</head>
+<body>
+    <h2>HTML-kod</h2>
+    <textarea disabled readonly>
+        <!DOCTYPE html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="zadanie62_vash.css">
+            <title>Pseudoklasa :lang</title>
+        </head>
+        <body>
+            <p>tekst bez lang
+                <u>Uwaga1:</u>
+                Język CSS dopuszcza stosowanie zarówno dużych,jak i małych liter.
+                Poprawnymi nazwami atrybutu są background,backGDOUND oraz BACKground.
+                <u>Uwaga2:</u>
+                Wstawienie białych znaków (spacje,tabulacje,znaki nowej linii) w arkuszu CSS nie ma wpływu na jego działanie.</p>
+        
+                <p lang="pl">Polski lang
+                    <u>CSS</u> Kaskadowe Arkusze Stylów (z ang Cascading Style Sheets) jest to specjalny
+                    język stworzone w celu clastycznego zarządzania sposobem formatowania (wyglądem)
+                    elementów znajdujących się na stronach WWW.
+                </p>
+        
+                <p lang="en">angielski lang
+                    <u>CSS-Cascading Style Sheets</u> is a special language createg to flexibly
+                        manage the formatting (appearance) of elements on web pages.
+                </p>
+                <!--Vashkevich Viktoryia-->
+                <a href="start.html" target="strony">Wróć</a> 
+        </body>
+        </html>
+    </textarea>
+    <h2>CSS-kod</h2>
+    <textarea disabled readonly>
+p
+{
+font: size 7.5mm;
+color: rgb(255, 0, 0);
+}
+p:lang(pl)
+{
+font: size 8.5mm;;
+color: rgb(121, 121, 121);
+}
+p:lang(en)
+{
+font-size:12.5mm;
+color: rgb(0, 140, 255);
+}
+body{
+    background-color: silver;
+}
+/*Viktoryia Vashkevich*/
+</textarea>
+    <br>
+    <a href="start.html" target="strony">wroć</a>
+
+</body>
+</html>
