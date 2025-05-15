@@ -1,0 +1,32 @@
+body {
+    background-color: silver;
+}
+p{font-size:11pt; margin-left: 3%;}
+
+p:first-child{font-size: 7mm; font-style: italic;}
+
+div#pierwszy_vashkevich {
+    width: 824pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border: solid 3px black;
+    border-radius: 16mm;
+}
+
+div#drugi_vashkevich {
+    width: 1024pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    border: solid 5px blue;
+    border-radius: 17mm;
+}
+
+div#trzeci_vashkevich {
+    width: 1224pt;
+    background-color: pink;
+    border: solid 7px purple;
+    border-radius: 11mm;
+}
+/*Vashkevich Viktoryia*/

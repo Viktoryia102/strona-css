@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+p {
+    margin-bottom: 2.5%;
+}
+.first:first-letter {
+    font-size: 114pt;
+    color: blue;
+}
+.first {
+    font-size: 24pt;
+    color: lightgreen;
+}
+
+.second::first-letter {
+    font-size: 111pt;
+    color: silver;
+}
+
+.second {
+    font-size: 18pt;
+    color: lightgreen;
+}
+
+h1::first-letter {
+    color: silver;
+    font-size: 120pt;
+}
+
+.third::first-letter {
+    font-size: 100pt;
+    color:lightblue;
+}
+
+.third::first-line {
+    color: red;
+    font-size: 17pt;
+}
+
+.third {
+    font-size: 25pt;
+    color: blue;
+}
+
+h1 {
+    color: lightgreen;
+    font-size: 40pt;
+}
+/*Vashkevich Viktoryia*/

@@ -1,0 +1,19 @@
+    *{
+    font-size: 39pt;
+    background-color: silver; 
+    color: red;
+    }
+    
+    p.klasa_nieuniwersalna_vash {
+    font-size: 35pt;
+    color: green;
+    }
+    
+    .klasa_nieuniwersalna_vash {
+    font-size: 24pt;
+    color: black;
+    }
+    
+    div.klasa_nieuniwersalna_vash {
+    color: red;
+    }
