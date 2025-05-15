@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoelementy</title>
+    <style>
+        table,td,tr{
+            font-size: 17px;
+            border-collapse: collapse;
+            border: 1px solid black;
+            text-align: left;}
+            td{
+                height: 40px;
+                width: 880px;
+                padding: 10px;
+            }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><h3><b>Pseudoelementem  :first-line, który obejmuje formatowaniem całą 
+            pierwszą linię.</b></h3></li>
+            <table>
+                <tr>
+                    <td>
+                        p <br>
+                        { <br>
+                        color:navy; <br>
+                        font-size:12pt; <br>
+                        } <br>
+                        <br>
+                        p:first-line <br>
+                        { <br>
+                        color:red; <br>
+                        font-size:20pt; <br>
+                        font-weight:bold;<br> 
+                        }<br>
+                    </td>
+                </tr>
+            </table>
+        <li><h3><b>Pseudoelementy: :after oraz :before.</b></h3></li>
+        <p>Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne 
+            <b>pseudoelementy: :after oraz :before.</b> Oba elementy służą do umieszczania tekstu przed i za 
+            formatowanym elementem strony. Poniżej zamieszczam odpowiedni przykład.</p>
+        </p>
+        <table>
+            <tr>
+                <td>
+                    p:before <br>
+                    { <br>
+                    content:"TO SĄ ĆWICZENIA";<br>
+                    font-size:15pt; <br>
+                    font-style:italic;    <br>
+                    font-weight:bold; <br>
+                    } <br>
+                    <br>
+                p:after <br>
+                    { <br>
+                    content:"AUTOR Król Lew"; <br>
+                    font-size:15pt; <br>
+                    font-style:italic; <br>
+                    font-weight:bold; <br>
+                    }<br>
+                </td>
+            </tr>
+        </table>
+
+       
+        <li><h3><b>Pseudoelement :first-letter</b> pozwala na formatowanie pierwszej litery w bloku 
+            tekstu.</h3></li>
+        <p>Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i 
+            nadanie jej koloru czerwonego.</p>
+            <table>
+                <tr>
+                    <td>
+                        p <br>
+                        { <br>
+                        color:navy;<br> 
+                        font-size:30pt; <br>
+                        } <br>
+                        p:first-letter <br>
+                        { <br>
+                        color:red; <br>
+                        font-size:100pt; <br>
+                        } <br>
+                    </td>
+                </tr>
+            </table>
+    </ul>
+     <!--Vashkevich Viktoryia-->
+     <br>
+    <a href="start.html" target="strony">wroć</a>
+</body>
+</html>
