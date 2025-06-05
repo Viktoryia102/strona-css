@@ -1,0 +1,169 @@
+<html>
+<head>
+    <title>Vashkevich</title>
+    <meta HTTP-EQUIV="content-type" CONTENT="text/html">
+    <style>
+        table {
+            width: 90%;
+            border-collapse: collapse;
+        }
+        td {
+            border: solid black 1px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><h2>Kolor tła</h2></td>
+            <td>Jednozadaniowy opis:</p>
+                selektor {background-color: kolor;}<br>
+                Dzięki temu poleceniu można ustalić kolor tła dla danego elementu.
+            </td>
+        </tr>
+        <tr>
+            <td><h2>Tło Obrazkowe</h2></td>
+            <td>Jednozadaniowy opis:</p>
+                selektor {background-image: url(adres);}<br>
+                background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");<br>
+                </td>
+        </tr>
+            <tr>
+                <td><h2>Powtarzanie tła</h2></td>
+                <td>Jednozadaniowy opis:</p>
+                    selektor {background-repeat: powtarzanie;}<br>
+                    Wyraz selektor ma zastosowanie do wszystkich elementów</p>
+                    Parametry:<br>
+                    "repeat" - jednocześnie w pionie i poziomie - domyślnie<br>
+                    "repeat-x" - w poziomie<br>
+                    "repeat-y" - w pionie<br>
+                    "no-repeat" - pojedynczy obrazek - bez powtarzania - w górnym-lewym rogu</td>
+            </tr>
+            <tr>
+                <td><h2>Pozycja tła</h2></td>
+                <td>Jednozadaniowy opis:</p>
+                   selektor {background-position: pozycja;}<br>
+                   Wyraz selektor ma zastosowanie do elementów blokowych.</p>
+
+                   <table>
+                    <tr>
+                        <td>pozycja: jedna wartość:</td>
+                        <td>jednostki miary:</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            "center" - obrazek na środku (w centrum) <br>
+                            "left" - obrazek po lewej <br>
+                            "right" - obrazek po prawej <br>
+                            "top" - obrazek na górze <br>
+                            "bottom" - obrazek na dole <br>
+                            jednostki miary - odległość od lewej krawędzi <br>
+                            dwie wartości (oddzielone spacją): <br>
+                            "left top" - lewy-górny róg <br>
+                            "left bottom" - lewy-dolny róg <br>
+                            "right top" - prawy-górny róg <br>
+                            "right bottom" - prawy-dolny róg <br>
+                            dwie jednostki miary - pierwsza z nich oznacza odległość od lewej krawędzi, a druga - od górnej 
+                        </td>
+                        <td>piksele - px  <br>
+                            punkty edytorskie - pt  <br>
+                            wysokość litery "x" - ex  <br>
+                            wysokość aktualnej czcionki - em  <br>
+                            centymetry lub milimetry - cm, mm  <br>
+                            części dziesiętne centymetra pisane z kropką np.: 0.5cm  <br>
+                            procent wielkości nadrzędnej - %  <br>
+                            cale - in (1in=2.54cm)</td>
+                    </tr>
+                </table>
+            </tr>
+            <tr>
+                <td><h2>Zaczepienie tła</h2></td>
+                <td>Jednozadaniowy opis:</p>
+                    selektor {background-attachment: zaczepienie;}<br>
+                    <u>Domyślnie tło obrazkowe przesuwa się wraz z przewijaną stroną.</u> Poleceniem tym można<br>
+                    sprawić, że tło będzie nieruchome w czasie przewijania zawartości strony.</p>
+                    <u>zaczepienie:</u>
+                    "scroll" - przewijanie tła (domyślnie)<br>
+                    "fixed" - tło nieruchome<br>
+                </tr>
+            <tr>
+                <td><h2>Łączenie atrybutów tła</h2></td>
+                <td>Jednozadaniowy opis:</p>
+                    Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+                    Natomiast wartości atrybutów to konkretne wartości atrybutów związane z tłem, wpisane we<br>
+                    właściwej kolejności i oddzielone spacjami. Można niektóre pominąć.</p>
+
+                    <strong>wartości atrybutów:</strong><br>
+                    • kolor tła<br>
+                    • tło obrazkowe<br>
+                    • powtarzanie tła<br>
+                    • zaczepienie tła<br>
+                    • pozycja tła<br>
+                    <strong>Przykład:</strong><br>
+                    p {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) norepeat scroll
+            </tr>
+            <tr>
+                <td><h2>Gradient liniowy</h2></td>
+                <td>Jednozadaniowy opis:</p>
+                    selektor { background: linear-gradient(kierunek, kolor1 odległość1, kolor2 odległość2...) }<br>
+                    <u><strong>Gradient</strong></u> to wypełnienie tłem płynnym przejściu kilku kolorów.</p>
+                    Selektorem może być praktycznie dowolny znacznik:<br>
+                    • p - akapit,<br>
+                    • h1 – tytuł<br>
+                    • td - komórka tabeli</p>
+                    <strong>Przykład:</strong><br>
+                    p {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) norepeat scroll</p>
+
+                        <strong>Słowa kluczowe:</strong><br>
+                        to top - przejście kolorów nastąpi pionowo z dołu do góry (odpowiednik 0deg)<br>
+                        to right top - ukośnie z lewego-dolnego do prawego-górnego narożnika<br>
+                        to right - poziomo z lewej do prawej strony (odpowiednik 90deg)<br>
+                        to right bottom - ukośnie z lewego-górnego do prawego-dolnego narożnika<br>
+                        to bottom - pionowo z górny do dołu (odpowiednik 180deg - domyślnie)<br>
+                        to left bottom - ukośnie z prawego-górnego do lewego-dolnego narożnika<br>
+                        to left - poziomo z prawej do lewej strony (odpowiednik 270deg)<br>
+                        to left top - ukośnie z prawego-dolnego do lewego-górnego narożnika<br>
+                        <strong>kąt</strong> - liczony zgodnie z ruchem wskazówek zegara<br>
+                        <br>
+                        <strong>z wartością:</strong><br>
+                        0deg skierowaną pionową w górę,<br>
+                        180deg - pionowo w dół<br>
+                </tr>
+                <tr>
+                    <td><h2>Gradient promienisty</h2></td>
+                    <td>selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...) }<p>
+                    <strong>Selektorem może być praktycznie dowolny znacznik:</strong><br>
+                      • p - akapit, <br>
+                      • h1 – tytuł<br>
+                      • td - komórka tabeli <p>
+                        
+                    <strong>Jako kształ należy wpisać:</strong><br>
+                    circle - okrąg (domyślnie gdy jako rozmiar podano pojedynczy promień, określony w jednostkach długości, a nie w procentach)<br>
+                    llipse - elipsa<p>
+
+                    Jeżeli identyczną deklarację gradientu wstawimy pod elementem prostokątnym, zamiast okręgu otrzymamy elipsę:<br>
+                    radial-gradient(white, black)<p>
+
+                    Różnice w rozmiarze gradientu w zależności od użytych słów kluczowych:<br>
+                    radial-gradient(closest-side at 25% 75%, white, black)<br>
+                    radial-gradient(farthest-side at 25% 75%, white, black)<br>
+                    radial-gradient(closest-corner at 25% 25%, white, black)<br>
+                    radial-gradient(farthest-corner at 25% 25%, white, black)<p>
+
+                    <strong>Inne ciekawe przykłady:</strong><br>
+                    radial-gradient(at 50% 110%, lightskyblue 40%, fuchsia, purple, blue, lime, yellow, orange,<br>
+                    red, lightskyblue 60%)<br>
+                    radial-gradient(ellipse 33% 66% at right top, white, red 75%, black)<br>
+                    <br>
+                    <strong>Powtarzany gradient promienisty</strong><br>
+                    selektor { background: repeating-radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...) }<br>
+                        
+                </tr>
+    </table>
+    
+    <a href="start.html" target="strony">wroć</a>
+</body>
+</html>
+
+<!--Vashkevich Viktoryia-->
